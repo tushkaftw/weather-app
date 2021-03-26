@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/cloud.svg" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="app-wrap">
+      <div class="app-main">
+        <h2 id="current-location"></h2>
+        <h1 id="current-temp"></h1>
+        <h3 id="current-status"></h3>
+      </div>
+      <div class="app-predictions">
+        <div class="prediction-el">
+          <p class="day-prediction day-0-name"></p>
+          <p class="temp-prediction day-0"></p>
+        </div>
+        <div class="prediction-el">
+          <p class="day-prediction day-1-name"></p>
+          <p class="temp-prediction day-1"></p>
+        </div>
+        <div class="prediction-el">
+          <p class="day-prediction day-2-name"></p>
+          <p class="temp-prediction day-2"></p>
+        </div>
+        <div class="prediction-el">
+          <p class="day-prediction day-3-name"></p>
+          <p class="temp-prediction day-3"></p>
+        </div>
+        <div class="prediction-el">
+          <p class="day-prediction day-4-name"></p>
+          <p class="temp-prediction day-4"></p>
+        </div>
+      </div>
+      <div class="app-btn">
+        <button id="add-btn">+ Add Location</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
