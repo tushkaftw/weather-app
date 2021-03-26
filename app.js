@@ -33,7 +33,7 @@ let lat = 0;
 let lon = 0;
 
 const api = {
-  url: `http://api.openweathermap.org/data/2.5/weather?q=`,
+  url: `https://api.openweathermap.org/data/2.5/weather?q=`,
   key: `d9585685aab8ff2df179f82aa618ff5c`,
   oneCallUrl: `https://api.openweathermap.org/data/2.5/onecall?`,
 };
